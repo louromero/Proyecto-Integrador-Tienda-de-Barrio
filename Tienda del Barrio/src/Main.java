@@ -1,5 +1,6 @@
 import module.Product;
 import module.User;
+
 import java.io.*;
 import java.util.ArrayList;
 import java.util.Date;
@@ -150,7 +151,7 @@ public class Main {
         String paymentType = scanner.nextLine();
 
         //Crear objeto de user
-        Date date = new Date(); //Se guarda con la fecha de hoy
+        Date date = new Date();
         User user = new User(nameClient, paymentType, total, products,  date);
 
         //Agregar nueva compra al archivo csv
