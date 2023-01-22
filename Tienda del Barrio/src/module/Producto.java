@@ -1,12 +1,12 @@
 package module;
 
 public class Producto {
-    private String nombre;
-    private String descripcion;
-    private float precio;
-    private String categoria;
-    private String etiqueta;
-    private  String url;
+    final String nombre;
+    final String descripcion;
+    final float precio;
+    final String categoria;
+    final String etiqueta;
+    final  String url;
 
     public Producto(String nombre, String descripcion, float precio, String categoria,String etiqueta, String url){
         this.nombre = nombre;
