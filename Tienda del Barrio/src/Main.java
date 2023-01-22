@@ -1,6 +1,5 @@
 import module.Product;
 import module.User;
-
 import java.io.*;
 import java.util.ArrayList;
 import java.util.Date;
